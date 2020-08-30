@@ -6,12 +6,13 @@ This web app uses an Angular UI, an MVC api and an SQLLite database to create an
 ### How to run
 1) Open the solution in Visual Studio (I used 2019)
 2) Edit database file location in people-lib\PeopleModel.cs (line 14  the section `options.UseSqlite`) - this is currently hard-coded :/
-3) Two projects need to be run 
-* API this will start at http://localhost:52655/api/people
-* WEB this will start at http://localhost:55258/
+3) Run/debug both API and WEB projects (hopefull all dependencies will install automatically)
+* API will start at http://localhost:52655/api/people
+* WEB will start at http://localhost:55258/
 
 
 ### Files
+
 #### people-lib - library
 The database and "business logic" for the application.
 * people.db a SQLLite database file
