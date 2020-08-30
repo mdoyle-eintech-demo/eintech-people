@@ -1,5 +1,5 @@
-#solution for Eintech's Coding Task
-##Codede by Micahel Doyle <mdoyle@mdoyle.org>, 30-Aug-2020
+# Solution for Eintech's Coding Task
+## by Michael Doyle <mdoyle@mdoyle.org>, 30-Aug-2020
 
 This web app uses an Angular UI, an MVC api and an SQLLite database to create an editable list of names.
 
@@ -11,7 +11,7 @@ This web app uses an Angular UI, an MVC api and an SQLLite database to create an
 * WEB this will start at http://localhost:55258/
 
 
-### files
+### Files
 #### people-lib - library
 The database and "business logic" for the application.
 * people.db a SQLLite database file
@@ -20,12 +20,13 @@ The database and "business logic" for the application.
 
 #### api - a RESTful api for accessing people
 This uses the people-lib to provide access to the people database over http.
-Controller\PeopleController.cs - implments the API
+* Controller\PeopleController.cs - implments the API
 
 #### web - an Angular UI that uses the API to Create, Read and Delete names in the people database.
-web\ClientApp\src\app\home\home.component.html
-web\ClientApp\src\app\home\home.component.ts
-Note create from a VS angular template that i don't have much expreince with  - there is a lot of extra files in here.
+* web\ClientApp\src\app\home\home.component.html
+* web\ClientApp\src\app\home\home.component.ts  
+
+I created this from a VS angular template that i don't have much experience with  - there are a quite a few extra files in here.
 
 #### tests
 Some basic tests I used while coding the application.
