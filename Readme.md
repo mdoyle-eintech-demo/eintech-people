@@ -1,5 +1,7 @@
-This is a web app for Eintech's Coding Task
-Codede by Micahel Doyle <mdoyle@mdoyle.org>, 30-Aug-2020
+#solution for Eintech's Coding Task
+##Codede by Micahel Doyle <mdoyle@mdoyle.org>, 30-Aug-2020
+
+This web app uses an Angular UI, an MVC api and an SQLLite database to create an editable list of names.
 
 ### How to run
 1) Open the solution in Visual Studio (I used 2019)
@@ -17,7 +19,7 @@ The database and "business logic" for the application.
 * People.cs simple functions to access the data.
 
 #### api - a RESTful api for accessing people
-This uses the people-lib to provide access to the people databse over http.
+This uses the people-lib to provide access to the people database over http.
 Controller\PeopleController.cs - implments the API
 
 #### web - an Angular UI that uses the API to Create, Read and Delete names in the people database.

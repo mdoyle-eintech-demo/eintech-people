@@ -1,3 +1,5 @@
+/****This is the UI component for the people list app.****/
+
 import { Component, Inject } from '@angular/core';
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { throwError } from 'rxjs/internal/observable/throwError';
