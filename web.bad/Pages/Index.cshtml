@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome 2</h1>
+    <div>@Model.People.Count() people found.</div>
+    @foreach (var person in Model.People) { 
+        <div><span>@person.Name</span><span>@person.LastUpdatedOn</span></div>
+    }
+
+    <div>
+        <h2>Add a person</h2>
+    </div>
+</div>
