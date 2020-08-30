@@ -26,7 +26,7 @@ This uses the people-lib to provide access to the people database over http.
 * web\ClientApp\src\app\home\home.component.html
 * web\ClientApp\src\app\home\home.component.ts  
 
-Note create from a VS angular template that i don't have much expreince with  - there is a lot of extra files in here.
+I created this from a VS angular template that i don't have much experience with  - there are a quite a few extra files in here.
 
 #### tests
 Some basic tests I used while coding the application.
