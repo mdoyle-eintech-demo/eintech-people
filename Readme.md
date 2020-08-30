@@ -1,5 +1,5 @@
-# solution for Eintech's Coding Task
-## Codede by Michael Doyle <mdoyle@mdoyle.org>, 30-Aug-2020
+# Solution for Eintech's Coding Task
+## by Michael Doyle <mdoyle@mdoyle.org>, 30-Aug-2020
 
 This web app uses an Angular UI, an MVC api and an SQLLite database to create an editable list of names.
 
