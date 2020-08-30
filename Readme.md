@@ -20,7 +20,7 @@ The database and "business logic" for the application.
 
 #### api - a RESTful api for accessing people
 This uses the people-lib to provide access to the people database over http.
-* Controller\PeopleController.cs - implments the API
+* [Controller/PeopleController.cs](api/Controller/PeopleController.cs) - implments the API
 
 #### web - an Angular UI that uses the API to Create, Read and Delete names in the people database.
 * web\ClientApp\src\app\home\home.component.html
